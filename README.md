@@ -14,5 +14,7 @@ You can test the service by sending a POST to `localhost:10001/_flexFunctions/ha
 }
 ```
 
+### Async/Await
+Async/Await can be used in Flex however, you need to update the runtime of the service to Node 8 or above. Using the [Kinvey CLI](https://github.com/Kinvey/kinvey-cli#flex-runtime-version-selection) command `flex update --runtime node8` will do the trick.
 
 Weather data provided by [MetaWeather](https://www.metaweather.com/api/).
